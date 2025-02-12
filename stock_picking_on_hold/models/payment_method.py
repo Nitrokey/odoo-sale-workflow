@@ -8,5 +8,5 @@ class PaymentMethod(models.Model):
 
     hold_picking_until_payment = fields.Boolean(
         help="Hold deliveries on sale orders with this payment method until invoiced",
-        default=True,
+        default=False,
     )

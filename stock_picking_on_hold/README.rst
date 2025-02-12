@@ -38,15 +38,15 @@ This module allows to hold the picking until the invoice is paid.
 Configuration
 =============
 
-#. Go to Invoicing > Payment Methods > Select your payment method > Enable "Hold Picking Untill Payment"
+#. Go to Invoicing > Payment Methods > Select your payment method > Enable "Hold Picking Until Payment"
 
 Usage
 =====
 
 To use functionality of module,
 
-1) You need to generate "Sale Order" using "Payment Method: Enabled Hold Picking Untill Payment"
-2) Picking can not "confirm" untill the payment is "confirmed" of that Sale Order
+1) You need to generate "Sale Order" using "Payment Method: Enabled Hold Picking Until Payment"
+2) Picking can not "confirm" until the payment is "confirmed" of that Sale Order
 
 Bug Tracker
 ===========
